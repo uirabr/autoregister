@@ -8,7 +8,7 @@ The program is based on the open project from Hashtag Training based on PyAutoGU
 1. It was not portable: it depends totally on local coordinates of each machine, so it could be plug and play
 2. It was not within best practices: PyAutoGUI is not robust for Web Scraping and Web Automation projects
 
-## Solution
+## Architecture of the solution
 
 I redesign the entire code to be deployed with Selenium webdriver, a much better choice for this kind of project. It is fast, reliable and easy to command each step.
 
